@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/LMZO-Documents/',
   title: "LMZO Documents",
   description: "Write Down My Own Thoughts Here",
+  cleanUrls: true,
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css' }]
   ],
