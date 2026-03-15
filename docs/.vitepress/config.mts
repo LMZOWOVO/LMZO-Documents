@@ -3,7 +3,7 @@ import markdownItKatex from 'markdown-it-katex-vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/LMZO-documents/',
+  base: '/LMZO-Documents/',
   title: "LMZO Documents",
   description: "Write Down My Own Thoughts Here",
   head: [
