@@ -141,7 +141,7 @@
 
 @supports (corner-shape: squircle) {
   .custom-block {
-    border-radius: 32px;
+    border-radius: 24px;
     corner-shape: squircle;
   }
 }
