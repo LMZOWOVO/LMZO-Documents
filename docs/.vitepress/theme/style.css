@@ -140,8 +140,11 @@
 }
 
 @supports (corner-shape: squircle) {
-  .custom-block {
-    border-radius: 24px;
+  .custom-block,
+  .VPFeature,
+  .VPFeature .icon,
+  .VPHome .VPButton {
+    border-radius: 24px !important;
     corner-shape: squircle;
   }
 }
