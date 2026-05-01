@@ -24,14 +24,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '数学相关', link: '/和差倍角公式推导' }
+      {
+        text: '项目',
+        items: [
+          { text: 'Phigros', link: '/Phigros' }
+        ],
+      }
     ],
 
     sidebar: [
       {
-        text: '数学相关',
+        text: '项目',
         items: [
-          { text: '和差倍角公式推导', link: '/和差倍角公式推导' }
+          { text: 'Phigros', link: '/Phigros' }
         ],
       }
     ],
